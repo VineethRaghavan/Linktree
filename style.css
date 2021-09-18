@@ -7,7 +7,7 @@ body {
    height: 100%;
 }
 img {
-  background: linear-gradient(radial, #aa076b 35%, #514A9D 70%);
+  background: linear-gradient(radial, #000 35%, #000 70%);
   animation: hue 10s infinite;
   border-radius: 50%;
   background: black;
