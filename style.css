@@ -1,0 +1,102 @@
+* {
+  color: #f8f8ff;
+  font-family: sans-serif;
+}
+body {
+   background: #121212;
+   height: 100%;
+}
+img {
+  background: linear-gradient(radial, #aa076b 35%, #514A9D 70%);
+  animation: hue 10s infinite;
+  border-radius: 50%;
+  background: black;
+}
+.pfp {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+}
+.name {
+  text-align: center;  
+  background: linear-gradient(45deg, #aa076b 35%, #514A9D 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: hue 10s infinite;
+}
+a {
+  text-decoration: none;
+}
+pre {
+  text-align: center
+}
+.link-item {
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  width: 290px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
+  text-decoration: none;
+}
+#instagram {
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+}
+#instagram:hover:before {
+  content:'';
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  transition: 1s;
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  -webkit-animation: hue 10s infinite;
+}
+#github {
+  background: #000; 
+}
+#github:hover:before {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  transition: 1s;
+  background: #000;
+}
+#twitter {
+  background: #1da1f2; 
+}
+#twitter:hover:before {
+  content:'';
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  transition: 1s;
+  background: #1da1f2;
+}
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
